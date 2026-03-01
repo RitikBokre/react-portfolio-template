@@ -95,6 +95,20 @@
                     }
                 },
                 {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {"bg": "", "fill": "#4CAF50"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "https://m.scrimba.com/certificate/uvPZGnCn/gfrontend", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend Developer}} Career Path",
+                            "text": "Completed comprehensive Frontend Developer Career Path certification from Scrimba, covering modern web development practices, React, JavaScript, and responsive design."
+                        }
+                    }
+                },
+                {
                     "id": 2,
                     "img": "",
                     "faIcon": "fa-solid fa-rocket",
