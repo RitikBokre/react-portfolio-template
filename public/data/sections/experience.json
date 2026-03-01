@@ -22,7 +22,7 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "",
+                    "img": "https://media.licdn.com/dms/image/v2/C560BAQHroRzeNTva6Q/company-logo_200_200/company-logo_200_200/0/1631330934922?e=1773878400&v=beta&t=ETsJkmxzElyK5GHOml-geQOnW-HWENsrdXFp9ZEXUjQ",
                     "faIcon": "fa-solid fa-building",
                     "faIconColors": {"bg": "#0066CC", "fill": "#FFFFFF"},
                     "dateStart": {"year": 2025, "month": 4},
@@ -45,7 +45,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "",
+                    "img": "https://media.licdn.com/dms/image/v2/C4E0BAQEuta_H29SLOw/company-logo_200_200/company-logo_200_200/0/1660641000898?e=1773878400&v=beta&t=DA61ky1xzxyjfwb8VroAorV7Gi07bJ4Foeem6a_ST_E",
                     "faIcon": "fa-solid fa-car",
                     "faIconColors": {"bg": "#FF6B00", "fill": "#FFFFFF"},
                     "dateStart": {"year": 2024, "month": 5},
@@ -71,7 +71,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "",
+                    "img": "https://media.licdn.com/dms/image/v2/C4E0BAQEuta_H29SLOw/company-logo_200_200/company-logo_200_200/0/1660641000898?e=1773878400&v=beta&t=DA61ky1xzxyjfwb8VroAorV7Gi07bJ4Foeem6a_ST_E",
                     "faIcon": "fa-solid fa-car",
                     "faIconColors": {"bg": "#FF6B00", "fill": "#FFFFFF"},
                     "dateStart": {"year": 2022, "month": 5},
@@ -97,7 +97,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "",
+                    "img": "https://media.licdn.com/dms/image/v2/C4E0BAQEuta_H29SLOw/company-logo_200_200/company-logo_200_200/0/1660641000898?e=1773878400&v=beta&t=DA61ky1xzxyjfwb8VroAorV7Gi07bJ4Foeem6a_ST_E",
                     "faIcon": "fa-solid fa-car",
                     "faIconColors": {"bg": "#FF6B00", "fill": "#FFFFFF"},
                     "dateStart": {"year": 2022, "month": 1},

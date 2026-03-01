@@ -16,7 +16,7 @@ import YoutubeVideoModal from "/src/components/modals/YoutubeVideoModal.jsx"
 import ConfirmationWindowModal from "/src/components/modals/ConfirmationWindowModal.jsx"
 import GalleryModal from "/src/components/modals/GalleryModal.jsx"
 
-function FeedbacksProvider({ children, canHaveAnimatedCursor }) {
+export default function FeedbacksProvider({ children, canHaveAnimatedCursor }) {
     const scheduler = useScheduler()
     const language = useLanguage()
     const viewport = useViewport()
@@ -209,5 +209,3 @@ const FeedbacksContext = createContext(null)
  * }}
  */
 export const useFeedbacks = () => useContext(FeedbacksContext)
-
-export default FeedbacksProvider

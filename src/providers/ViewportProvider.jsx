@@ -9,7 +9,7 @@ import {useUtils} from "/src/hooks/utils.js"
 import {useScheduler} from "/src/hooks/scheduler.js"
 import {useData} from "/src/providers/DataProvider.jsx"
 
-function ViewportProvider({ children }) {
+export default function ViewportProvider({ children }) {
     const data = useData()
     const utils = useUtils()
     const scheduler = useScheduler()
@@ -181,5 +181,3 @@ const ViewportContext = createContext(null)
  * }}
  */
 export const useViewport = () => useContext(ViewportContext)
-
-export default ViewportProvider

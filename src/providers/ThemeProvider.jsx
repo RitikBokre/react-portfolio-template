@@ -8,7 +8,7 @@ import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import ActivitySpinner from "/src/components/loaders/ActivitySpinner.jsx"
 
-function ThemeProvider({ children, supportedThemes, defaultThemeId, showSpinnerOnThemeChange, onThemeChanged }) {
+export default function ThemeProvider({ children, supportedThemes, defaultThemeId, showSpinnerOnThemeChange, onThemeChanged }) {
     const utils = useUtils()
 
     const allThemes = Array.isArray(supportedThemes) && supportedThemes.length > 0 ?
@@ -107,5 +107,3 @@ const ThemeContext = createContext(null)
  * }}
  */
 export const useTheme = () => useContext(ThemeContext)
-
-export default ThemeProvider

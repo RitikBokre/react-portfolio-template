@@ -8,7 +8,7 @@ import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import {useConstants} from "/src/hooks/constants.js"
 
-function LanguageProvider({ children, supportedLanguages, defaultLanguageId, appStrings, selectedThemeId }) {
+export default function LanguageProvider({ children, supportedLanguages, defaultLanguageId, appStrings, selectedThemeId }) {
     const constants = useConstants()
     const utils = useUtils()
 
@@ -177,5 +177,3 @@ const LanguageContext = createContext(null)
  * }}
  */
 export const useLanguage = () => useContext(LanguageContext)
-
-export default LanguageProvider

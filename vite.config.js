@@ -3,8 +3,19 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/react-portfolio-template/',
-    plugins: [react()],
+    base: '/',
+    plugins: [
+        react({
+            // Enable Fast Refresh
+            fastRefresh: true,
+        })
+    ],
+    server: {
+        // Ensure HMR works properly
+        hmr: {
+            overlay: true
+        }
+    },
     build: {
         rollupOptions: {
             output: {

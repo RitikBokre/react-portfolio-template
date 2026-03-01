@@ -7,7 +7,7 @@
 import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 
-function DataProvider({ children, settings }) {
+export default function DataProvider({ children, settings }) {
     const utils = useUtils()
 
     const DataProviderStatus = {
@@ -178,5 +178,3 @@ const DataContext = createContext(null)
  * }}
  */
 export const useData = () => useContext(DataContext)
-
-export default DataProvider

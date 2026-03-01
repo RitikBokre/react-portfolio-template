@@ -14,7 +14,7 @@ import {useViewport} from "/src/providers/ViewportProvider.jsx"
 import {useUtils} from "/src/hooks/utils.js"
 import {useLayout} from "/src/hooks/layout.js"
 
-function NavigationProvider({ children, sections, categories }) {
+export default function NavigationProvider({ children, sections, categories }) {
     const language = useLanguage()
     const location = useLocation()
     const feedbacks = useFeedbacks()
@@ -323,5 +323,3 @@ const NavigationContext = createContext(null)
  * }}
  */
 export const useNavigation = () => useContext(NavigationContext)
-
-export default NavigationProvider

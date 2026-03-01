@@ -407,15 +407,6 @@
                                                         "href":  "https://248.netlify.app",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://248.netlify.app",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{248}} Game",
@@ -448,15 +439,6 @@
                                                         "href":  "https://pumpkinmeme.netlify.app",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://pumpkinmeme.netlify.app",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Pumpkin}} Meme",
@@ -488,15 +470,6 @@
                                                         "href":  "https://resturantorder.netlify.app",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://resturantorder.netlify.app",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Restaurant}} Food Ordering",
@@ -529,15 +502,6 @@
                                                         "href":  "https://annoyingcookieconsent.netlify.app",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://annoyingcookieconsent.netlify.app",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Cookie}} Consent",
@@ -570,15 +534,6 @@
                                                         "href":  "https://convertaunit.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://convertaunit.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Convert}} a Unit",
@@ -611,15 +566,6 @@
                                                         "href":  "https://addtocartapk.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://addtocartapk.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Add to Cart}} App",
@@ -652,15 +598,6 @@
                                                         "href":  "https://memesgeneration.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://memesgeneration.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Meme}} Generator",
@@ -693,15 +630,6 @@
                                                         "href":  "https://twitterastwimba.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://twitterastwimba.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Twitter}} Clone Twimba",
@@ -734,15 +662,6 @@
                                                         "href":  "https://ballscorebasket.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://ballscorebasket.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Basketball}} Score",
@@ -775,15 +694,6 @@
                                                         "href":  "https://generatepasswd.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://generatepasswd.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Generate}} a Password",
@@ -832,15 +742,6 @@
                                                         "href":  "https://theintropage.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://theintropage.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Intro}} Page",
@@ -872,15 +773,6 @@
                                                         "href":  "https://nftsitepage.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://nftsitepage.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Shoes NFT}} Responsive",
@@ -913,15 +805,6 @@
                                                         "href":  "https://responsiveflex.netlify.app/",
                                                         "tooltipString":  "view_project"
                                                     },
-                                           "preview":  {
-                                                           "links":  [
-                                                                         {
-                                                                             "href":  "https://responsiveflex.netlify.app/",
-                                                                             "tooltip":  "view_project",
-                                                                             "faIcon":  "fa-solid fa-arrow-up-right-from-square"
-                                                                         }
-                                                                     ]
-                                                       },
                                            "locales":  {
                                                            "en":  {
                                                                       "title":  "{{Responsive}} Using Flex",

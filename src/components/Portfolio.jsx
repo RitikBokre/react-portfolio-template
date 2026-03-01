@@ -8,7 +8,7 @@ import LayoutNavigation from "/src/components/layout/LayoutNavigation.jsx"
 import LayoutImageCache from "/src/components/layout/LayoutImageCache.jsx"
 import LayoutSlideshow from "/src/components/layout/LayoutSlideshow.jsx"
 
-function Portfolio() {
+export default function Portfolio() {
     const data = useData()
     const language = useLanguage()
     const location = useLocation()
@@ -47,5 +47,3 @@ function Portfolio() {
         </Layout>
     )
 }
-
-export default Portfolio

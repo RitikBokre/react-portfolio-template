@@ -8,7 +8,7 @@ import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import {useScheduler} from "/src/hooks/scheduler.js"
 
-function InputProvider({ children }) {
+export default function InputProvider({ children }) {
     const utils = useUtils()
     const scheduler = useScheduler()
 
@@ -127,5 +127,3 @@ const InputContext = createContext(null)
  * }}
  */
 export const useInput = () => useContext(InputContext)
-
-export default InputProvider

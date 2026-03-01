@@ -6,7 +6,7 @@
 
 import React, {createContext, useContext, useEffect, useState} from 'react'
 
-function LocationProvider({ children, sections, categories }) {
+export default function LocationProvider({ children, sections, categories }) {
     const [didMount, setDidMount] = useState(false)
     const [activeSectionId, setActiveSectionId] = useState(null)
     const [nextSectionId, setNextSectionId] = useState(null)
@@ -154,5 +154,3 @@ const LocationContext = createContext(null)
  * }}
  */
 export const useLocation = () => useContext(LocationContext)
-
-export default LocationProvider

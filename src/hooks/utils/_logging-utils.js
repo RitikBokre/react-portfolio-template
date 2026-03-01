@@ -43,7 +43,7 @@ export const _loggingUtils = {
      * @param {String} primaryColor
      */
     info: (title, items, primaryColor) => {
-        if(!console || !console.log)
+        // if(!console || !console.log)
             return
 
         if(title) {
