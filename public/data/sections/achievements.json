@@ -73,6 +73,125 @@
             "id": 2,
             "component": "ArticleCards",
             "locales": {
+                "en": {"title": "Certifications & {{Licenses}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {"bg": "", "fill": "#4CAF50"},
+                    "date": {"year": 2024, "month": 1},
+                    "link": {"href": "https://m.scrimba.com/certificate/uvPZGnCn/gfrontend", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend Developer}} Career Path",
+                            "text": "Comprehensive Frontend Developer Career Path certification from Scrimba covering HTML5, CSS, React, DOM, REST APIs, and Responsive Web Design.",
+                            "tags": ["HTML5", "CSS", "React", "DOM", "REST APIs", "Web Development"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gauge-high",
+                    "faIconColors": {"bg": "", "fill": "#FF6B6B"},
+                    "date": {"year": 2026, "month": 1},
+                    "link": {"href": "https://static.frontendmasters.com/ud/c/78a3e003bf/gsEzESQdBd/react-performance-v2.pdf", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{React Performance}}, v2",
+                            "text": "Advanced React performance optimization techniques from Frontend Masters. Credential ID: 78a3e003bf-gsEzESQdBd",
+                            "tags": ["React", "Performance", "Optimization"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-sitemap",
+                    "faIconColors": {"bg": "", "fill": "#2196F3"},
+                    "date": {"year": 2026, "month": 1},
+                    "link": {"href": "https://static.frontendmasters.com/ud/c/78a3e003bf/gkuyfreSHY/frontend-system-design.pdf", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Front-End}} System Design",
+                            "text": "Comprehensive front-end system design principles and architecture from Frontend Masters. Credential ID: 78a3e003bf-gkuyfreSHY",
+                            "tags": ["System Design", "Architecture", "Frontend"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-universal-access",
+                    "faIconColors": {"bg": "", "fill": "#9C27B0"},
+                    "date": {"year": 2025, "month": 10},
+                    "link": {"href": "https://static.frontendmasters.com/ud/c/78a3e003bf/rNlNlrpuxs/accessibility-v3.pdf", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Website Accessibility}}, v3",
+                            "text": "Web accessibility best practices and WCAG compliance from Frontend Masters. Credential ID: 78a3e003bf-rNlNlrpuxs",
+                            "tags": ["Accessibility", "WCAG", "Web Development", "a11y"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "date": {"year": 2025, "month": 9},
+                    "link": {"href": "https://static.frontendmasters.com/ud/c/78a3e003bf/wQwRoiyplO/vanilla-js-apps.pdf", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Vanilla JS}}: You Might Not Need a Framework",
+                            "text": "Advanced vanilla JavaScript techniques and patterns from Frontend Masters. Credential ID: 78a3e003bf-wQwRoiyplO",
+                            "tags": ["JavaScript", "Vanilla JS", "Frontend Development"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {"bg": "", "fill": "#FFC107"},
+                    "date": {"year": 2025, "month": 7},
+                    "link": {"href": "https://static.frontendmasters.com/ud/c/5bc3cc5e53/KWRyjGiZOe/web-performance.pdf", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{JavaScript}} Performance",
+                            "text": "JavaScript performance optimization and best practices from Frontend Masters. Credential ID: 5bc3cc5e53-KWRyjGiZOe",
+                            "tags": ["JavaScript", "Performance", "Optimization", "Web Performance"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": "#FF9800"},
+                    "date": {"year": 2025, "month": 9},
+                    "link": {"href": "https://www.linkedin.com/learning/certificates/a05a62eae302eaf70e87c7bfb585788cf7c606a309f9aa64c190bc15023007bc?trk=share_certificate", "tooltipString": "view_certificate"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Introduction}} to Artificial Intelligence",
+                            "text": "Fundamentals of AI and machine learning from LinkedIn Learning. Credential ID: 82a7c28b3316055d65e9dea132b0e26062667a4fa7079a61b3ee2a22752bdf20",
+                            "tags": ["AI", "Machine Learning", "Artificial Intelligence"]
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleCards",
+            "locales": {
                 "en": {"title": "Notable {{Achievements}}"}
             },
             "settings": {
@@ -91,20 +210,6 @@
                         "en": {
                             "title": "{{1st Runner-up}} at Hacktivate 4.0",
                             "text": "Secured 1st Runner-up position at Hacktivate 4.0 (2022) for Oxygen CSS optimization, delivering a 15% reduction in CSS file size and improving overall performance."
-                        }
-                    }
-                },
-                {
-                    "id": 7,
-                    "img": "",
-                    "faIcon": "fa-solid fa-certificate",
-                    "faIconColors": {"bg": "", "fill": "#4CAF50"},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "https://m.scrimba.com/certificate/uvPZGnCn/gfrontend", "tooltipString": "view_certificate"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Frontend Developer}} Career Path",
-                            "text": "Completed comprehensive Frontend Developer Career Path certification from Scrimba, covering modern web development practices, React, JavaScript, and responsive design."
                         }
                     }
                 },
