@@ -1,0 +1,128 @@
+%-------------------------
+% ATS-Friendly Resume in Latex
+% Author: Ritik Bokre
+% Optimized for Workday ATS parsing
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% Adjust margins - tighter for one page
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting - SIMPLE for ATS with minimal spacing
+\titleformat{\section}{
+  \vspace{-8pt}\raggedright\large\bfseries
+}{}{0em}{}[\vspace{-8pt}]
+
+% Remove custom commands - use simple formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large RITIK BOKRE}\\
+    \vspace{1pt}
+    Phone: +91 7898115050 | Email: bokreritik@gmail.com\\
+    LinkedIn: linkedin.com/in/ritikbokre | GitHub: github.com/RitikBokre | LeetCode: leetcode.com/u/ritikbokre
+\end{center}
+\vspace{-10pt}
+
+%-----------SKILLS-----------
+\section*{SKILLS}
+\textbf{Languages and Libraries:} HTML, CSS, SCSS, JavaScript (ES6+), TypeScript, React.js, Next.js, Redux, Redux Toolkit, Context API, React Router, GSAP, Jest, React Testing Library, Tailwind CSS, Bootstrap, Webpack, Vite, Babel, CI/CD
+
+\textbf{Tools and Technologies:} Responsive Web Design, UI/UX, Front-end Development, DOM Manipulation, Browser Rendering, RESTful APIs, Web Performance APIs, CSS Animations, Component-Driven Architecture, Microfrontend, Git, GitHub, GitLab, Agile Methodologies, JIRA, Confluence, Storybook, Zeplin, Figma, Cypress, NPM, Pivotal Tracker, Code Reviews
+
+\vspace{-4pt}
+
+%-----------EXPERIENCE-----------
+\section*{EXPERIENCE}
+
+\textbf{Dassault Systemes} | Pune, Maharashtra\\
+\textbf{Software Engineering Specialist Frontend} | April 2025 - Present
+
+\begin{itemize}[leftmargin=0.15in, itemsep=-1pt]
+    \item Enhanced filter search UX by eliminating input lag (40\% faster) using React useTransition for non-blocking updates.
+    \item Optimized version graph component, reducing render time by 35\% and bundle size by 18\%.
+    \item Integrated RESTful APIs with frontend, collaborating with backend developers on data fetching, error handling, and Redux state management.
+    \item Reduced unnecessary re-renders through memoization and state restructuring, improving UI responsiveness by 30\% under heavy data loads for configuration management app.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{CarTrade Tech Limited} | Navi Mumbai, Maharashtra\\
+\textbf{Frontend Developer} | April 2024 - April 2025
+
+\begin{itemize}[leftmargin=0.15in, itemsep=-1pt]
+    \item Enhanced the Oxygen Design System for CarWale, serving 40M+ monthly users with 50+ reusable components in React and React Native.
+    \item Owned end-to-end development of multiple customer-facing products (Oxygen, Oxygen Native, CWOPR, ES) from requirement analysis and technical design through implementation, testing, production deployment, collaborating with product managers, designers, and backend engineers.
+    \item Raised snapshot test coverage to 80\% for Oxygen, enhancing component reliability and consistency.
+    \item Optimized 8-10 Oxygen React components, reducing initial rendering time by 60 ms on the CarWale model page by cutting duplicate code and lifting Lighthouse from 84 to 92, with higher accessibility scores.
+    \item Initiated and led research on counter-based hashing for atomic class names, achieving concise 2-3 character names, reducing CarWale's DOM size by 8\% and improving page load time and overall performance.
+    \item Automated template generation via a configurable panel, eliminating manual developer intervention and reducing template build time by 70\%.
+    \item Conducted code reviews and participated in Agile Scrum ceremonies (daily stand-ups, sprint planning, retrospectives), maintaining code quality standards and sharing best practices across the team.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{Associate Frontend Developer} | May 2022 - March 2024
+
+\begin{itemize}[leftmargin=0.15in, itemsep=-1pt]
+    \item Delivered GoLive skin ads with complex CSS animations using vanilla JavaScript and template injection, ensuring cross-browser compatibility via BrowserStack and boosting launch speed by 15\% under tight deadlines.
+    \item Fixed INP related priority issues across CarWale, helping maintain top-4 SEO rankings for car-related searches.
+    \item Re-engineered form components (Input, Select, TextArea), reducing on-screen pixel footprint by 30\%, boosting click-through rate by 40\%, and enhancing overall user experience.
+    \item Led migration of BikeWale non-React pages to React, enhancing performance by 20\% and maintainability.
+    \item Established centralized animation documentation with 60+ illustrative examples, reducing revision time by 25\% and now used by 10+ designers for ads creation.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{Frontend Developer Intern} | January 2022 - May 2022
+
+\begin{itemize}[leftmargin=0.15in, itemsep=-1pt]
+    \item Reduced DOM nodes by 15\%, improving load times by 5\% and enhancing overall performance for CarWale.
+    \item Built interactive ad templates using HTML, CSS, TypeScript, and JavaScript for Google and internal slots with tracking features, ensuring cross-platform support and boosting engagement by 18\%.
+    \item Translated UI/UX wireframes and design mockups into pixel-perfect, responsive React components, ensuring technical feasibility and maintaining 95\%+ design accuracy while optimizing for performance.
+\end{itemize}
+
+\vspace{-2pt}
+
+%-----------EDUCATION-----------
+\section*{EDUCATION}
+
+\textbf{Acropolis Institute of Technology and Research} | Indore\\
+Bachelor of Engineering in Computer Engineering | SGPA: 8.5 | July 2018 - June 2022
+
+\vspace{-2pt}
+
+%-----------ACHIEVEMENTS-----------
+\section*{ACHIEVEMENTS}
+
+\begin{itemize}[leftmargin=0.15in, itemsep=-1pt]
+    \item Secured 1st Runner-up at Hacktivate 4.0 (2022) for Oxygen CSS optimization, delivering a 15\% reduction in CSS file size.
+\end{itemize}
+
+\end{document}
